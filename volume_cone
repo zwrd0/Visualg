@@ -1,0 +1,23 @@
+Algoritmo "Cone"
+
+
+
+Var
+
+raio: real
+alt: real
+res: real
+
+
+Inicio
+
+escreva("Por favor indique a altura do cone: ")
+leia(alt)
+escreva("Por favor indique o raio da base do cone: ")
+leia(raio)
+
+res <- (pi * (raio * raio) * alt) / 3
+escreval("O Volume do cilindro é de: ", res:40:2)
+
+
+Fimalgoritmo
