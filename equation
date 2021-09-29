@@ -1,0 +1,29 @@
+Algoritmo "equacao"
+
+
+Var
+
+a: real
+b: real
+c: real
+res1: real
+res2: real
+
+
+Inicio
+
+escreval("Indique o primeiro número")
+leia(a)
+escreval("Indique o segundo número")
+leia(b)
+escreval("Indique o terceiro número")
+leia(c)
+
+res1 <- (-b + raizq(b*b - 4 * a * c)) / 2 * a
+res2 <- (-b - raizq(b*b - 4 * a * c)) / 2 * a
+
+escreval("O Resultado é", res1:40:4, " ou", res2:40:4)
+
+
+
+Fimalgoritmo
