@@ -1,0 +1,24 @@
+Algoritmo "IMC"
+
+
+
+Var
+
+peso: real
+alt: real
+imc: real
+
+
+Inicio
+
+escreva("Por favor indique o seu peso atual (em Kg): ")
+leia(peso)
+escreva("Por favor indique a sua altura atual (em metros): ")
+leia(alt)
+
+imc <- peso / (alt * alt)
+
+escreval("O seu IMC é de ", imc:2:2, "kg/m²")
+
+
+Fimalgoritmo
