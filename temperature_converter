@@ -1,0 +1,25 @@
+Algoritmo "graus"
+
+
+
+
+
+Var
+
+cel: real
+res: real
+
+
+Inicio
+
+escreval("/\/\/\/\/\/  Conversor para ºF  \/\/\/\/\/\")
+escreval("")
+escreva("Por favor indique a temperatura (em ºC): ")
+leia(cel)
+
+res <- 32 + ((9 * cel) /5 )
+escreva(cel:4:1, "ºC são ", res:4:1, "ºF.")
+
+
+
+Fimalgoritmo
